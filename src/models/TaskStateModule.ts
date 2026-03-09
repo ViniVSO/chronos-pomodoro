@@ -1,7 +1,7 @@
 import type { TaskModule } from "./TaskModule"
 
 export type TaskStateModule = {
-  task: TaskModule[];
+  tasks: TaskModule[];
   secondsRemaining: number;
   formatedSecondsRemaining: string;
   activeTask: TaskModule | null;
